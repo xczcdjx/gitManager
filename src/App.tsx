@@ -22,7 +22,7 @@ export const App: React.FC = () => {
     const {data,loading,error}=useUrlLoader<{message:string}>('https://dog.ceo/api/breeds/image/random',c)
     return (
         <div>
-            <h3>时间钟表</h3>
+            <h3>时间钟表123</h3>
             <p>{hh + ':' + mm + ':' + (ss < 10 ? '0' + ss : ss)}</p>
             <Hello/>
             <p>{'x:' + p.x + ' y:' + p.y}</p>
